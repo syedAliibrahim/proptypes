@@ -37,16 +37,21 @@ import Comp2 from './components/comp2';
 
 ///element vrivablr
 function App() {
-  const name ="salma";
-  let data;
-  if ( name === "salma"){
-        data = <Comp1/>
-       }
-       else{
-        data = <Comp2/>
-       }
+  // const name ="salma";
+  // let data;
+  // if ( name === "salma"){
+  //       data = <Comp1/>
+  //      }
+  //      else{
+  //       data = <Comp2/>
+  //      }
+  const age =17;
+  let name= "ali";
        return (
-        <div>{data}</div>
+        <div>
+          {age >= 18? <h1>you can vote</h1> : <h2>you cant vote</h2>}
+          {name === "ali"? <Comp1/> : <Comp2/>}
+        </div>
        )
 }
 export default App;

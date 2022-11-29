@@ -7,6 +7,7 @@ import Customer from './components/customer';
 import Click from './components/click';
 import Comp1 from './components/comp1';
 import Comp2 from './components/comp2';
+import Array from './components/array'
 
 // function App() {
 //   // let a = "abuzzzz"
@@ -36,7 +37,7 @@ import Comp2 from './components/comp2';
 //   }
 
 ///element vrivablr
-function App() {
+// function App() {
   // const name ="salma";
   // let data;
   // if ( name === "salma"){
@@ -45,13 +46,21 @@ function App() {
   //      else{
   //       data = <Comp2/>
   //      }
-  const age =17;
-  let name= "ali";
-       return (
-        <div>
-          {age >= 18? <h1>you can vote</h1> : <h2>you cant vote</h2>}
-          {name === "ali"? <Comp1/> : <Comp2/>}
-        </div>
-       )
+//   const age =17;
+//   let name= "ali";
+//        return (
+//         <div>
+//           {age >= 18? <h1>you can vote</h1> : <h2>you cant vote</h2>}
+//           {name === "ali"? <Comp1/> : <Comp2/>}
+//         </div>
+//        )
+// }
+function App() {
+  
+  return (
+    <div>
+      <Array/>
+    </div>
+  )
 }
 export default App;

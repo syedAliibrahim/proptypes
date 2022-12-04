@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import usArray from './usArray'
 
 function UsObj() {
     const obj ={
@@ -28,6 +29,7 @@ function UsObj() {
     <h1>{person.age}</h1>
     <h2>{person.height}</h2>
     <button onClick={changeState}>change</button>
+    <usArray/>
     </div>
 
   )

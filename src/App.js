@@ -8,6 +8,7 @@ import Click from './components/click';
 import Comp1 from './components/comp1';
 import Comp2 from './components/comp2';
 import Array from './components/array'
+import Ustate from './components/ustate';
 
 // function App() {
 //   // let a = "abuzzzz"
@@ -56,10 +57,10 @@ import Array from './components/array'
 //        )
 // }
 function App() {
-  
+
   return (
     <div>
-      <Array/>
+     <Ustate />
     </div>
   )
 }

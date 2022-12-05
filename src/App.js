@@ -11,8 +11,9 @@ import './App.css';
 // import Array from './components/array'
 // import Ustate from './components/ustate';
 // import UseEffect from './components/useEffect';
-import Compo1 from './components/Compo1';
-import FormHandling from './components/FormHandling';
+// import Compo1 from './components/Compo1';
+// import FormHandling from './components/FormHandling';
+import Multipleform from './components/multipleformHandling';
 
 // function App() {
 //   // let a = "abuzzzz"
@@ -72,7 +73,8 @@ function App() {
      {/* <NameContext .Provider value={'asasa'}>
      <Compo1/>
      </NameContext.Provider> */}
-    <FormHandling/>
+    {/* <FormHandling/> */}
+    <Multipleform/>
     </div>
   )
 }

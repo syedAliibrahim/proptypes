@@ -1,14 +1,17 @@
 // import logo from './logo.svg';
+import { createContext } from 'react';
 import './App.css';
-import Props from './components/props';
-import Home from './components/home';
-import Header from './components/header';
-import Customer from './components/customer';
-import Click from './components/click';
-import Comp1 from './components/comp1';
-import Comp2 from './components/comp2';
-import Array from './components/array'
-import Ustate from './components/ustate';
+// import Props from './components/props';
+// import Home from './components/home';
+// import Header from './components/header';
+// import Customer from './components/customer';
+// import Click from './components/click';
+// import Comp1 from './components/comp1';
+// import Comp2 from './components/comp2';
+// import Array from './components/array'
+// import Ustate from './components/ustate';
+// import UseEffect from './components/useEffect';
+import Compo1 from './components/Compo1';
 
 // function App() {
 //   // let a = "abuzzzz"
@@ -56,11 +59,19 @@ import Ustate from './components/ustate';
 //         </div>
 //        )
 // }
+
+export const NameContext =createContext()
 function App() {
 
   return (
     <div>
-     <Ustate />
+     {/* <Ustate /> */}
+     {/* <UseEffect/> */}
+
+     <NameContext .Provider value={'asasa'}>
+     <Compo1/>
+     </NameContext.Provider>
+    
     </div>
   )
 }

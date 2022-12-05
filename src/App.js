@@ -12,6 +12,7 @@ import './App.css';
 // import Ustate from './components/ustate';
 // import UseEffect from './components/useEffect';
 import Compo1 from './components/Compo1';
+import FormHandling from './components/FormHandling';
 
 // function App() {
 //   // let a = "abuzzzz"
@@ -68,10 +69,10 @@ function App() {
      {/* <Ustate /> */}
      {/* <UseEffect/> */}
 
-     <NameContext .Provider value={'asasa'}>
+     {/* <NameContext .Provider value={'asasa'}>
      <Compo1/>
-     </NameContext.Provider>
-    
+     </NameContext.Provider> */}
+    <FormHandling/>
     </div>
   )
 }

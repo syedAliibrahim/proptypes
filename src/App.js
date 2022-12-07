@@ -14,6 +14,7 @@ import './App.css';
 // import Compo1 from './components/Compo1';
 // import FormHandling from './components/FormHandling';
 import Multipleform from './components/multipleformHandling';
+import Router from './components/config/Router'
 
 // function App() {
 //   // let a = "abuzzzz"
@@ -74,7 +75,8 @@ function App() {
      <Compo1/>
      </NameContext.Provider> */}
     {/* <FormHandling/> */}
-    <Multipleform/>
+    {/* <Multipleform/> */}
+    <Router/>
     </div>
   )
 }
